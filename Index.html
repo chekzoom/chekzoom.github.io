@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikita Electronics Lab</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0d1117;
+    color:#e6edf3;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+h1{
+    font-size:3em;
+    margin:0;
+}
+
+.subtitle{
+    color:#8b949e;
+    margin-top:10px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:30px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:12px;
+    padding:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#58a6ff;
+}
+
+.card h3{
+    color:#58a6ff;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#238636;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#8b949e;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>⚡ Nikita Electronics Lab</h1>
+    <p class="subtitle">
+        ESP32 • Arduino • SDR • Радио • Самодельная электроника
+    </p>
+</header>
+
+<div class="container">
+
+    <h2>Мои проекты</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>📡 SDR на ESP32</h3>
+            <p>
+                Эксперименты по созданию SDR-приемников и радиосистем
+                на базе ESP32.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>✈ Авиационная электроника</h3>
+            <p>
+                Навигационные устройства, резервные системы,
+                радиосвязь и телеметрия.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🔧 Станки и ЧПУ</h3>
+            <p>
+                Контроллеры на ESP32, шаговые двигатели,
+                интерфейсы оператора и автоматизация.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💡 ESP32 проекты</h3>
+            <p>
+                Wi-Fi устройства, Web интерфейсы,
+                IoT и домашняя автоматизация.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📚 Прошивки</h3>
+            <p>
+                Открытые исходники, инструкции и схемы.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🛠 Лаборатория</h3>
+            <p>
+                Осциллографы, паяльные станции,
+                ремонт и разработка устройств.
+            </p>
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <h2>GitHub</h2>
+
+    <p>
+        Здесь публикуются схемы, платы, прошивки и эксперименты.
+    </p>
+
+    <a href="https://github.com/YOUR_LOGIN" class="btn">
+        Перейти в GitHub
+    </a>
+
+</div>
+
+<footer>
+    © 2026 Nikita Electronics Lab
+</footer>
+
+</body>
+</html>
